@@ -1,0 +1,11 @@
+
+@font-face {
+	font-family: DepartureMono;
+	src: url('/DepartureMono-Regular.woff2') format('woff2');
+	font-display: swap;
+}
+
+* {
+    background: red;
+    font-family: "DepartureMono", monospace;
+}
