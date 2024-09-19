@@ -7,6 +7,47 @@
         <title>{{ title }}</title>
     </head>
     <body>
-        {{ content | safe }}
+        {# {{ content | safe }} #}
+        <main>
+            <section class="flex-between">
+                <p>|| Frontend Developer ||</p>
+                <span id="clock">00:00:00</span>
+            </section>
+            <section>
+                <div class="main-grid">
+                    <div class="side">
+                        <a href="#" class="pad side-link flex-between">Github<span>&gt;</span></a>
+                        <a href="#" class="pad side-link flex-between">Email<span>&gt;</span></a>
+                        <a href="#" class="pad side-link flex-between">Websites<span>&gt;</span></a>
+                        <div class="fancy"></div>
+                    </div>
+                    <div class="left">
+                        <p class="pad">akdoksod</p>
+                        
+                    </div>
+                    <div class="right">
+                        <p class="pad">akdoksod</p>
+                    </div>
+                </div>
+            </section>
+            <section class="flex-between">
+                <p>[ font (DepartureMono) ]</p>
+                <p>[ 11ty ]</p>
+            </section>
+        </main>
     </body>
+    <script>
+        const span = document.getElementById('clock');
+
+        function time() {
+            const d = new Date();
+            const s = d.getSeconds();
+            const m = d.getMinutes();
+            const h = d.getHours();
+            span.textContent = 
+            ("0" + h).substr(-2) + ":" + ("0" + m).substr(-2) + ":" + ("0" + s).substr(-2);
+        }
+
+        setInterval(time, 1000);
+    </script>
 </html>

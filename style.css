@@ -1,11 +1,134 @@
+/* Josh's Custom CSS Reset: https://www.joshwcomeau.com/css/custom-css-reset/ */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+/* Add custom font: https://departuremono.com/ */
 @font-face {
 	font-family: DepartureMono;
 	src: url('/DepartureMono-Regular.woff2') format('woff2');
 	font-display: swap;
 }
 
-* {
-    background: red;
+:root{
+    --primary: #dba16d;
+    --background: #1a1a1a;
+}
+
+/* START - Website Styling */
+/* Generics */
+*{
     font-family: "DepartureMono", monospace;
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+html {
+    background:  var(--background);
+}
+
+body {
+    width: 100%;
+    max-width: 80ch;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    gap: .5rem;
+    flex-direction: column;
+}
+
+
+
+/* Utilities */
+.text-lg {
+    font-size: 2rem;
+}
+
+.text-sm {
+    font-size: .7rem;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 150px repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+    
+.side {
+    grid-area: 1 / 1 / 2 / 2;
+    border-top: 2px solid  var(--primary);
+    border-bottom: 2px solid  var(--primary);
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    
+}
+
+/* https://www.magicpattern.design/tools/css-backgrounds */
+.fancy{
+    background-image: linear-gradient(#dba16d 2px, transparent 2px), linear-gradient(to right, #d19a68 2px, #1a1a1a 2px);
+    background-size: 25px 25px;
+    flex: 1 1 auto;
+    min-height: 125px;
+}
+
+.side-link, .side-link:visited{
+    text-decoration: none;
+    border-left: 2px solid  var(--primary);
+    /* border-right: 2px solid  var(--primary); */
+}
+
+.side-link:hover, .side-link:focus{
+    background: rgba(255,255,255,.1);
+}
+
+.left {
+    grid-area: 1 / 2 / 2 / 3;
+    border: 2px solid  var(--primary);
+}
+
+.right {
+    grid-area: 1 / 3 / 2 / 4;
+    border: 2px solid  var(--primary);
+    border-left: none;
+}
+
+.pad {
+    padding: .5rem;
+}
+
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
