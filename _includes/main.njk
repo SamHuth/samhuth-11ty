@@ -4,35 +4,39 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/style.css">
-        <title>{{ title }}</title>
+        <title>{{ data.title }} | {{data.name}} | {{ data.url }}</title>
     </head>
     <body>
         {# {{ content | safe }} #}
         <main>
+
+
+
+
             <section class="flex-between">
-                <p>|| Frontend Developer ||</p>
+                <p class="text-lg">{{ data.title }}</p>
                 <span id="clock">00:00:00</span>
             </section>
             <section>
-                <div class="main-grid">
-                    <div class="side">
-                        <a href="#" class="pad side-link flex-between">Github<span>&gt;</span></a>
-                        <a href="#" class="pad side-link flex-between">Email<span>&gt;</span></a>
-                        <a href="#" class="pad side-link flex-between">Websites<span>&gt;</span></a>
-                        <div class="fancy"></div>
+                <div class="main-grid ">
+                    <div class="side"></div>
+                    <div class="wrapper flex-col">
+                        <div class="vert-col">
+                            <p class="pad">About</p>
+                        </div>
+                        <div class="vert-col bt">
+                            <p class="pad">Projects</p>
+                        </div>
                     </div>
-                    <div class="left">
-                        <p class="pad">akdoksod</p>
-                        
-                    </div>
-                    <div class="right">
-                        <p class="pad">akdoksod</p>
+                    <div class="wrapper">
+                        <p class="pad">Work</p>
                     </div>
                 </div>
             </section>
-            <section class="flex-between">
-                <p>[ font (DepartureMono) ]</p>
-                <p>[ 11ty ]</p>
+            <section class="flex-between flex-start">
+                <a href="#" class="pad text-sm flex-between">Github</a>
+                <a href="#" class="pad text-sm flex-between">Email</a>
+                <a href="#" class="pad text-sm flex-between">Branching Web</a>
             </section>
         </main>
     </body>
