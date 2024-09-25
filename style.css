@@ -32,15 +32,12 @@ p, h1, h2, h3, h4, h5, h6 {
     --accent: #03ac7c;
 }
 
-/* @media (prefers-color-scheme:dark) {
-    :root {
-        --primary: #ffffff;
-        --background: #05272d;
-        --gray: #ffffff;
-        --accent: #24dba7;
-    }
-} */
-
+@font-face {
+    /* https://open-foundry.com/fonts/bagnard_regular */
+	font-family: Bagnard;
+	src: url('/Bagnard.otf') format('opentype');
+	font-display: swap;
+}
 
 *{
     /* https://systemfontstack.com/ */
@@ -48,14 +45,10 @@ p, h1, h2, h3, h4, h5, h6 {
     color: var(--gray);
 }
 
-
-.reverse, .reverse * {
-/* .reverse { */
-    /* background: var(--primary);
-    color: var(--background); */
-    /* /* border-left: 1px solid #000; */
-    /* border-top: 1px solid #000; */ */
-    flex-grow: 1;
+.custom-font{
+    font-family: "Bagnard", serif;
+    font-weight: bold;
+    letter-spacing: -1px;
 }
 
 a:hover, a:focus, a:hover *, a:focus * {
@@ -150,11 +143,6 @@ main {
 .bt {
     border-top: 1px solid var(--primary);
 }
-
-#clock{
-    /* font-weight: bold; */
-}
-
 
 @media (max-width: 768px){
     .flex-between{
