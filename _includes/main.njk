@@ -4,17 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/style.css">
-        <title>{{ data.title }} - {{ data.url }}</title>
+        <title>{{ data.title }} - {{ data.name }} | {{ data.url }}</title>
     </head>
     <body>
-        {# {{ content | safe }} #}
         <main>
-
-
-
-
             <section class="flex-between">
-                <p class="text-lg">{{ data.title }}</p>
+                <h1 class="text-lg font-normal">{{ data.title }}</h1>
                 <span id="clock">00:00:00</span>
             </section>
             <section>
@@ -71,10 +66,13 @@
                     </div>
                 </div>
             </section>
-            <section class="flex-between flex-start gap">
-                <a href="#" class="text-sm flex-between">Github</a>
-                <a href="#" class="text-sm flex-between">Email</a>
-                <a href="#" class="text-sm flex-between">Branching Web</a>
+            <br />
+            <br />
+            <section class="flex-col flex-center pad gap">
+                <a href="#" class="text-sm">Github</a>
+                <a href="#" class="text-sm">Email</a>
+                <a href="#" class="text-sm">Branching Web</a>
+                <span class="text-sm">&copy; 2024</span>
             </section>
         </main>
     </body>

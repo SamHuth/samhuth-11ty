@@ -46,10 +46,19 @@ p, h1, h2, h3, h4, h5, h6 {
     /* https://systemfontstack.com/ */
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     color: var(--gray);
-    /* font-size: 16px; */
 }
 
-a:hover, a:focus {
+
+.reverse, .reverse * {
+/* .reverse { */
+    /* background: var(--primary);
+    color: var(--background); */
+    /* /* border-left: 1px solid #000; */
+    /* border-top: 1px solid #000; */ */
+    flex-grow: 1;
+}
+
+a:hover, a:focus, a:hover *, a:focus * {
     color: var(--accent)!important;
 }
 
@@ -70,6 +79,10 @@ main {
     flex-direction: column;
 }
 
+.font-normal {
+    font-weight: normal;
+}
+
 .main-grid {
     display: flex;
 }
@@ -82,8 +95,7 @@ main {
 }
 
 .side {
-    width: 30px;
-    border: 1px solid var(--primary);
+    border: 8px solid var(--primary);
     background:  var(--primary);
 }
 
@@ -98,6 +110,11 @@ main {
 .pad {
     padding: 1.5rem;
 }
+
+.pad-sm {
+    padding: 0.5rem;
+}
+
 .gap {
     gap: .5rem;
 }
@@ -120,6 +137,11 @@ main {
     justify-content: flex-start;
 }
 
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
 .flex-col {
     display: flex;
     flex-direction: column;
@@ -130,8 +152,9 @@ main {
 }
 
 #clock{
-    font-weight: bold;
+    /* font-weight: bold; */
 }
+
 
 @media (max-width: 768px){
     .flex-between{
