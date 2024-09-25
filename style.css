@@ -26,18 +26,27 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 :root{
-    --primary: #d5d5d5;
-    --background: #fff;
-    --gray: #626262;
-    --accent: #db9a00;
+    --primary: #000000;
+    --background: #ffffff;
+    --gray: #000000;
+    --accent: #03ac7c;
 }
+
+/* @media (prefers-color-scheme:dark) {
+    :root {
+        --primary: #ffffff;
+        --background: #05272d;
+        --gray: #ffffff;
+        --accent: #24dba7;
+    }
+} */
+
 
 *{
     /* https://systemfontstack.com/ */
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     color: var(--gray);
-    font-weight: 600;
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 
 a:hover, a:focus {
@@ -57,7 +66,7 @@ body {
 
 main {
     display: flex;
-    gap: .8rem;
+    gap: .5rem;
     flex-direction: column;
 }
 
@@ -69,10 +78,11 @@ main {
     border: 1px solid var(--primary);
     border-left: none;
     flex: 1 1 auto;
+    width: 100%;
 }
 
 .side {
-    width: 5px;
+    width: 30px;
     border: 1px solid var(--primary);
     background:  var(--primary);
 }
@@ -86,7 +96,18 @@ main {
 }
 
 .pad {
-    padding: .5rem;
+    padding: 1.5rem;
+}
+.gap {
+    gap: .5rem;
+}
+
+.pt-sm {
+    padding-top: .5rem;
+}
+
+.pb-sm {
+    padding-bottom: .5rem;
 }
 
 .flex-between {
@@ -103,12 +124,16 @@ main {
     display: flex;
     flex-direction: column;
 }
+
 .bt {
     border-top: 1px solid var(--primary);
-
 }
 
-@media (max-width: 701px){
+#clock{
+    font-weight: bold;
+}
+
+@media (max-width: 768px){
     .flex-between{
         flex-direction: column;
         align-items: flex-start;
@@ -120,9 +145,13 @@ main {
     }
 
     .side {
-        display: none;
+        width: 100%;
+        height: 5px;
     }
     .wrapper {
         border-left: 1px solid var(--primary);
+    }
+    .wrapper.flex-col{
+        border-bottom: none;
     }
 }

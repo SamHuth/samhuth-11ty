@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/style.css">
-        <title>{{ data.title }} | {{data.name}} | {{ data.url }}</title>
+        <title>{{ data.title }} - {{ data.url }}</title>
     </head>
     <body>
         {# {{ content | safe }} #}
@@ -22,21 +22,59 @@
                     <div class="side"></div>
                     <div class="wrapper flex-col">
                         <div class="vert-col">
-                            <p class="pad">About</p>
+                            <div class="pad">
+                                <h2>About</h2>
+                                <p class="text-sm pb-sm">I like carefully crafting user interfaces and building high quality performant websites and applications. I work with React, WordPress and Eleventy.</p>
+                                <p class="text-sm">Currently working as Frontend Developer at <a href="https://stafflink.com.au" target="_blank" rel="noopener noreferrer">STAFFLINK</a>. I am available for freelance work at <a href="https://branchingweb.com.au" target="_blank" rel="noopener noreferrer">Branching Web</a>, which I want to grow into a development studio with self managed sustainable website hosting.</p>
+                            </div>
                         </div>
                         <div class="vert-col bt">
-                            <p class="pad">Projects</p>
+                            <div class="pad">
+                                <h2>Projects</h2>
+                                <p class="text-sm pt-sm"><b>Finished</b></p>
+                                <p class="text-sm">
+                                    <a href="https://covecatering.com.au/" target="_blank" rel="noopener noreferrer">Cove Catering</a></p>
+                                <p class="text-sm">
+                                    <a href="https://uniquemobilemechanic.com.au" target="_blank" rel="noopener noreferrer">Unique Mobile Mechanic</a>
+                                </p>
+                                <p class="text-sm pt-sm"><b>In Progress</b></p>
+                                <p class="text-sm">
+                                    <a href="https://github.com/SamHuth/branchingweb.com.au-11ty" target="_blank" rel="noopener noreferrer">Branching Web Redesign</a>
+                                </p>
+                                <p class="text-sm">
+                                    <a href="https://github.com/SamHuth/htbawd" target="_blank" rel="noopener noreferrer">How to be a Web Developer</a>
+                                </p>
+                                <p class="text-sm pt-sm"><b>Limbo</b></p>
+                                <p class="text-sm"><strike>AFL Stats</strike></p>
+                                <p class="text-sm"><strike>Google Trends Game</strike></p>
+                                <p class="text-sm"><strike>Habit Tracker</strike></p>
+                                <p class="text-sm"><strike>Budgeting App</strike></p>
+                            </div>
                         </div>
                     </div>
                     <div class="wrapper">
-                        <p class="pad">Work</p>
+                        <div class="pad">
+                            <h2>Work</h2>
+                            <p class="text-sm pt-sm"><b>Current</b></p>
+                            <p class="text-sm"><b>Frontend Developer</b></p>
+                            <p class="text-sm pb-sm"><a href="https://stafflink.com.au" target="_blank" rel="noopener noreferrer">STAFFLINK</a> | <i>July 2022 - Present</i></p>
+                            <p class="text-sm pt-sm"><b>Previous</b></p>
+                            <p class="text-sm"><b>Web Developer</b></p>
+                            <p class="text-sm"><a href="https://stafflink.com.au" target="_blank" rel="noopener noreferrer">STAFFLINK</a> | <i>June 2021 - July 2022</i></p>
+                            <p class="text-sm pt-sm"><b>Web Developer</b></p>
+                            <p class="text-sm"><a href="https://www.ose.com.au/" target="_blank" rel="noopener noreferrer">OSE</a> | <i>February 2021 - March 2021</i></p>
+                            <p class="text-sm pt-sm"><b>Web Developer</b></p>
+                            <p class="text-sm"><a href="https://www.simprogroup.com/" target="_blank" rel="noopener noreferrer">simPRO Software</a> | <i>January 2018 - February 2021</i></p>
+                            <p class="text-sm pt-sm"><b>Web Developer</b></p>
+                            <p class="text-sm"><a href="https://www.australiazoo.com.au/" target="_blank" rel="noopener noreferrer">Australia Zoo</a> | <i>October 2015 - July 2017</i></p>
+                        </div>
                     </div>
                 </div>
             </section>
-            <section class="flex-between flex-start">
-                <a href="#" class="pad text-sm flex-between">Github</a>
-                <a href="#" class="pad text-sm flex-between">Email</a>
-                <a href="#" class="pad text-sm flex-between">Branching Web</a>
+            <section class="flex-between flex-start gap">
+                <a href="#" class="text-sm flex-between">Github</a>
+                <a href="#" class="text-sm flex-between">Email</a>
+                <a href="#" class="text-sm flex-between">Branching Web</a>
             </section>
         </main>
     </body>
