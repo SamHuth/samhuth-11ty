@@ -1,15 +1,16 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {# Meta Data #}
+        {% include "meta_data.njk" %}
+        {# Schema Data #}
+        {% include "schema_data.njk" %}
         <link rel="stylesheet" href="/style.css">
-        <title>{{ data.title }} - {{ data.name }} | {{ data.url }}</title>
     </head>
-    <body>
+    <body id="site">
         <main>
             <section class="flex-between">
-                <h1 class="text-lg font-normal custom-font">Frontend Developer</h1>
+                <h1 class="text-lg font-normal custom-font">Frontend Developer {{ eleventy.generator }}</h1>
                 <span id="clock">00:00:00</span>
             </section>
             <section>

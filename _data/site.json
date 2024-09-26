@@ -1,0 +1,12 @@
+{
+    "title":    "samhuth.com",
+    "domain":   "https://samhuth.com",
+    "url":      "samhuth.com",
+    "author": {
+        "name": "Samuel Huth",
+        "email": "sams.huth@gmail.com",
+        "role": "Frontend Developer",
+        "bio_pt1": "I like carefully crafting user interfaces and building high quality performant websites and applications. I work with React, WordPress and Eleventy.",
+        "bio_pt2": "Currently working as Frontend Developer at STAFFLINK. I am available for freelance work at Branching Web, which I want to grow into a development studio with self managed sustainable website hosting."
+    }
+}
