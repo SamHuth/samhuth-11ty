@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        {# Meta Data #}
+        {% include "meta_data.njk" %}
+        {# Schema Data #}
+        {% include "schema_data.njk" %}
+        <link rel="stylesheet" href="/style.css">
+    </head>
+  </head>
+  <body id="site">
+    <main>
+      <section class="flex-between">
+        <h1 class="text-lg font-normal custom-font">{{ title }}</h1>
+        <a href="#main-navigation" class="nav-to-bottom">Go to Menu</a>
+      </section>
+      <section>
+        <div class="main-grid ">
+          <div class="side"></div>
+          <div class="wrapper flex-col">
+            <div class="vert-col">
+              <div class="pad">
+                {{ content | safe }}
+              </div>
+            </div>
+            <div class="vert-col bt">
+              <div class="pad">
+                <p class="text-sm"><b>Last Modified</b></p>
+                <p class="text-sm">{{ page.date.toLocaleString('en-AU') }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <br />
+      <br />
+      {% include "footer.njk" %}
+    </main>
+  </body>
+</html>

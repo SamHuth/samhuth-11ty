@@ -11,7 +11,7 @@
         <main>
             <section class="flex-between">
                 <h1 class="text-lg font-normal custom-font">Frontend Developer</h1>
-                <span id="clock">00:00:00</span>
+                <a href="#main-navigation" class="nav-to-bottom">Go to Menu</a>
             </section>
             <section>
                 <div class="main-grid ">
@@ -27,7 +27,7 @@
                         <div class="vert-col bt">
                             <div class="pad">
                                 <h2 class="custom-font">Projects</h2>
-                                <p class="text-sm pt-sm"><b>Finished</b></p>
+                                <p class="text-sm pt-sm"><b>Released</b></p>
                                 <p class="text-sm">
                                     <a href="https://covecatering.com.au/" target="_blank" rel="noopener noreferrer">Cove Catering</a></p>
                                 <p class="text-sm">
@@ -43,10 +43,6 @@
                                 <p class="text-sm">
                                     <a href="https://github.com/SamHuth/branchingweb.com.au-11ty" target="_blank" rel="noopener noreferrer">Branching Web</a>
                                 </p>
-                                <p class="text-sm pt-sm"><b>Limbo</b></p>
-                                <p class="text-sm"><strike>How to be a Web Developer</strike></p>
-                                <p class="text-sm"><strike>AFL Stats</strike></p>
-                                <p class="text-sm"><strike>Google Trends Game</strike></p>
                             </div>
                         </div>
                     </div>
@@ -73,26 +69,7 @@
             </section>
             <br />
             <br />
-            <section class="flex-col flex-center pad gap">
-                <a href="https://github.com/SamHuth/" target="_blank" rel="noopener noreferrer" class="text-sm">Github</a>
-                <a href="mailto:sams.huth@gmail.com" target="_blank" rel="noopener noreferrer" class="text-sm">Email</a>
-                <a href="https://www.branchingweb.com.au/" target="_blank" rel="noopener noreferrer" class="text-sm">Branching Web</a>
-                <span class="text-sm">&copy; 2024</span>
-            </section>
+            {% include "footer.njk" %}
         </main>
-        <script>
-            const span = document.getElementById('clock');
-
-            function time() {
-                const d = new Date();
-                const s = d.getSeconds();
-                const m = d.getMinutes();
-                const h = d.getHours();
-                span.textContent = 
-                ("0" + h).substr(-2) + ":" + ("0" + m).substr(-2) + ":" + ("0" + s).substr(-2);
-            }
-
-            setInterval(time, 1000);
-        </script>
     </body>
 </html>

@@ -1,6 +1,7 @@
 ---
 layout: main.njk
+title: 'Frontend Developer | Samuel Huth'
 meta:
-    title: 'Frontend Developer'
-    description: 'Samuel Huth is a Frontend Developer from Brisbane Australia. Sam focues on web performance and optimisation, and works extensively with React, WordPress and Eleventy.'
+    description: 'Frontend Developer from Brisbane Australia, specialising in RedwoodJS (React), WordPress + WooCommerce, and Eleventy.'
+date: Last Modified
 ---

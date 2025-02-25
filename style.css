@@ -26,10 +26,10 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 :root{
-    --primary: #000000;
-    --background: #ffffff;
-    --gray: #000000;
-    --accent: #03ac7c;
+    --primary: rgb(0, 0, 0);
+    --background: rgb(255, 255, 255);
+    --gray: rgb(0, 0, 0);
+    --accent: rgb(63, 68, 157);
 }
 
 @font-face {
@@ -53,6 +53,11 @@ p, h1, h2, h3, h4, h5, h6 {
 
 a:hover, a:focus, a:hover *, a:focus * {
     color: var(--accent)!important;
+}
+
+p, li, a, span, ol{
+    margin-bottom: .2rem;
+    font-size: .8rem;
 }
 
 html {
@@ -97,7 +102,6 @@ main {
 }
 
 .text-sm {
-    font-size: .7rem;
 }
 
 .pad {
@@ -135,9 +139,18 @@ main {
     align-items: center;
 }
 
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
 .flex-col {
     display: flex;
     flex-direction: column;
+}
+
+.items-start{
+    align-items: start;
 }
 
 .bt {
@@ -163,15 +176,31 @@ main {
     outline-offset: 1px
 }
 
+.hr{
+    border: 0;
+    border-top: 1px solid var(--primary);
+    width: 60px;
+    margin: 10px 0;
+}
+
+.border-b{
+    border-bottom: 1px solid var(--primary);
+}
+
+.nav-to-bottom{
+    display: none;
+}
+
 @media (max-width: 768px){
     .flex-between{
         flex-direction: column;
         align-items: flex-start;
         width: 100%;
     }
-
+    
     .main-grid {
         flex-direction: column;
+        border-bottom: 1px solid var(--primary);
     }
 
     .side {
@@ -180,8 +209,10 @@ main {
     }
     .wrapper {
         border-left: 1px solid var(--primary);
-    }
-    .wrapper.flex-col{
         border-bottom: none;
+    }
+
+    .nav-to-bottom{
+        display: block;
     }
 }
