@@ -3,11 +3,12 @@ const markdownItAttrs = require("markdown-it-attrs");
 
 module.exports = function(eleventyConfig) {
 
-    // Elevent PassThrough
+    // Eleventy PassThrough
     eleventyConfig.addPassthroughCopy("style.css");
+    eleventyConfig.addPassthroughCopy("samuel_huth_resume.pdf");
     eleventyConfig.addPassthroughCopy("Bagnard.otf");
 
-    // Add target=blank
+    // Add target=blank custom code
     const mdOptions = {
         html: true,
         breaks: true,
