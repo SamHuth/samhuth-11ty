@@ -9,9 +9,6 @@ date: Last Modified
 
 AI is pretty cool and can serve some really interesting functions. AI shows it's best value when used as a tool, not when it's forced into places it doesn't need to be. Most common use case seems to be using it to create slop.
 
-YouTube summarising livestream comments in a message is an annoying waste. It would take the same cognitive power to read the AI comment, as it would to come to the same conclusion yourself.
-
-
 <br />
 
 ### How I use AI

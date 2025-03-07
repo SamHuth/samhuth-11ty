@@ -26,3 +26,7 @@ Dave Rupert - [daverupert.com](https://daverupert.com/){target="_blank"}
 Brad Frost - [bradfrost.com](https://bradfrost.com/){target="_blank"}
 
 Bradley Taunt - [btxx.org](https://btxx.org/){target="_blank"}
+
+Henry Desroches - [henry.codes](https://henry.codes/){target="_blank"}
+
+
