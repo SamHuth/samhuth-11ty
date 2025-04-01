@@ -15,7 +15,7 @@ Tom Macwright - [macwright.com](https://macwright.com/){target="_blank"}
 
 Jim Nielsen - [blog.jim-nielsen.com](https://blog.jim-nielsen.com/){target="_blank"}
 
-Robin Rendle - [macwright.com](https://robinrendle.com/){target="_blank"}
+Robin Rendle - [robinrendle.com](https://robinrendle.com/){target="_blank"}
 
 Chris Coyier - [chriscoyier.net](https://chriscoyier.net/){target="_blank"}
 
