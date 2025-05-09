@@ -5,7 +5,7 @@ module.exports = function(eleventyConfig) {
 
     // Eleventy PassThrough
     eleventyConfig.addPassthroughCopy("style.css");
-    eleventyConfig.addPassthroughCopy("samuel_huth_resume.pdf");
+    eleventyConfig.addPassthroughCopy("Samuel_Huth_Resume_2025.pdf");
     eleventyConfig.addPassthroughCopy("Bagnard.otf");
 
     // Add target=blank custom code
