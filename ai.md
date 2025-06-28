@@ -6,20 +6,18 @@ meta:
 date: Last Modified
 ---
 
-<h2 class="custom-font pb-sm">How I use/don't use AI</h2>
+## How I use/don't use AI
 
 AI is pretty cool and can serve some really interesting functions. AI shows it's best value when used as a tool, not when it's forced into places it doesn't need to be. Most common use case seems to be using it to create slop.
 
-<br />
 
 ### How I use AI
 
 AI is great for simulating another developer, and I sometimes utilise it for development assistance.
 
 - **Rubber Ducking** - Explaining and abstracting your problems to a AI chat interface is excellent in the absence of another human to talk to.
-- **Code Review** - Github bots like [CodeRabbitAi](https://www.coderabbit.ai/){target="\_blank"} are good as an extra set of eyes on a Pull Request. Although prone to some mistakes and often bizarre suggestions, it's useful to cover common practices that may have been missed.
+- **Code Review** - Github bots like [CodeRabbitAi](https://www.coderabbit.ai/){target="_blank"} are good as an extra set of eyes on a Pull Request. Although prone to some mistakes and often bizarre suggestions, it's useful to cover common practices that may have been missed.
 
-<br />
 
 ### How I don't use AI
 
