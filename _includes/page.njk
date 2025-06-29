@@ -1,21 +1,27 @@
 <!doctype html>
 <html lang="en-AU">
-    <head>
-      {# Meta Data #}
-      {% include "meta_data.njk" %}
-      {# Schema Data #}
-      {% include "schema_data.njk" %}
-      <link rel="stylesheet" href="css/main.css">
-    </head>
+  <head>
+    {# Meta Data #}
+    {% include "meta_data.njk" %}
+    {# Schema Data #}
+    {% include "schema_data.njk" %}
+    <link rel="stylesheet" href="/css/main.css">
   </head>
   <body id="site">
+    <a href="#content">Skip to content</a>
     <header>
-      <h1>{{ title }}</h1>
+      <small>Samuel Huth - Web Dev, UX/UI, SEO, Accessibility</small>
     </header>
-    <main>
+    <aside>
+      {% include "navigation.njk" %}
+    </aside>
+    <main id="content">
+      <h1>{{ title }}</h1>
       {{ content | safe }}
-      <p>Last Modified: {{ page.date.toLocaleString('en-AU') }}</p>
+      <small>This page was last modified: {{ page.date.toLocaleString('en-AU') }}</small>
+      <br />
+      <small>This website was last deployed: {{ page.date.toLocaleString('en-AU') }}</small>
     </main>
-      {% include "footer.njk" %}
+    {% include "footer.njk" %}
   </body>
 </html>

@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-title: /ai
+title: AI
 meta:
   description: 'Thoughts, Opinions and my approach to AI as a Developer.'
 date: Last Modified

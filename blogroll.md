@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-title: /blogroll
+title: BLOGROLL
 meta:
   description: 'Other people I regularly visit.'
 date: Last Modified

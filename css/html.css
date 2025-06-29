@@ -1,2 +1,111 @@
 @layer html {
+
+    :root{
+        --accent: #09b081;
+        --accent-dark: #d2ad1a;
+        --accent-alt: rgb(148, 1, 9);
+        --text: #dbdbdb;
+    }
+    @font-face {
+    /* https://open-foundry.com/fonts/bagnard_regular */
+    font-family: Bagnard;
+    src: url('/Bagnard.otf') format('opentype');
+    font-display: swap;
+    }
+
+    *{
+        /* https://systemfontstack.com/ */
+        font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, Adwaita Sans, Cantarell, Ubuntu, roboto, noto, helvetica, arial, sans-serif;
+        /* font-family: Menlo, Consolas, Monaco, Adwaita Mono, Liberation Mono, Lucida Console, monospace; */
+        color: var(--text);
+        margin-bottom: 0.5em;
+    }
+
+    h1, h2, h3, h4, h5, h6{
+        font-family: 'Bagnard';
+        margin-top: 2em;
+        margin-bottom: 0em;
+    }
+
+    html{
+        background-color: #17171c;
+    }
+    body{
+        padding: 2rem;
+        width: 100%;
+        max-width: 90ch;
+        margin: 0 auto;
+        /* display: grid; */
+        grid-template-areas:
+        "header"
+        "aside"
+        "main"
+        "footer";
+    }
+    main{
+        grid-area: main;
+    }
+    aside{
+        grid-area: aside;
+    }
+    header {
+         grid-area: header;
+    }
+    footer {
+         grid-area: footer;
+    }
+    [href="#content"]{
+        position: absolute;
+        left: -10000px;
+        top: auto;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+    }
+    [href="#content"]:focus{
+        position: static;
+        width: auto;
+        height: auto;
+    }
+    
+    a,
+    a sup,
+    a em,
+    a strong,
+    a b {
+        color: var(--accent);
+        font-weight: bold;
+    }
+    
+    a:hover, a:focus,
+    a:hover sup, a:focus sup,
+    a:hover em, a:focus em,
+    a:hover strong, a:focus strong,
+    a:hover b, a:focus b {
+        color: var(--accent-dark);
+    }
+
+    a:focus{
+        outline: 2px dashed var(--accent-dark);
+        outline-offset: 4px;
+    }
+
+    ul, ol{
+        padding-left: 1rem;
+    }
+    ul li, ol li{
+        margin: 0;
+    }
+
+    blockquote{
+        padding: 10px;
+        background: rgba(255,255,255,.03);
+        border-left: 2px solid var(--accent);
+    }
+
+    blockquote > *:last-child{
+        margin: 0;
+    }
+
 }
+
