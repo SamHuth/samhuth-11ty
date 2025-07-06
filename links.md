@@ -15,3 +15,12 @@ lorem
 lorem
 
 > /links is about connecting the web
+
+https://gossipsweb.net/
+https://diagram.website/
+https://oneminutepark.tv
+https://ooh.directory
+https://damaged.bleu255.com/
+https://www.thewayofcode.com
+https://10kdrummachines.com/
+https://verses.xyz/

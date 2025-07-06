@@ -54,19 +54,6 @@
     footer {
          grid-area: footer;
     }
-    [href="#content"]{
-        position: absolute;
-        left: -10000px;
-        top: auto;
-        width: 1px;
-        height: 1px;
-        overflow: hidden;
-    }
-    [href="#content"]:focus{
-        position: static;
-        width: auto;
-        height: auto;
-    }
     
     a,
     a sup,
@@ -89,13 +76,20 @@
         outline: 2px dashed var(--accent-dark);
         outline-offset: 4px;
     }
+    a[target="_blank"]:after{
+        content: " 🡵";
+    }
 
     ul, ol{
         padding-left: 1rem;
     }
-    ul li, ol li{
+    ul li{
+        list-style: square;
+    }
+    nav ul li, nav ol li{
         margin: 0;
     }
+
 
     blockquote{
         padding: 10px;

@@ -10,3 +10,9 @@ date: Last Modified
 
 Managing digital spaces as the Website Manager at [Oxworks](https://www.oxworks.com.au){target="_blank"}.
 
+## Working
+## Building
+## Watching
+## Listening
+## Reading
+

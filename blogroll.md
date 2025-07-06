@@ -28,4 +28,4 @@ Bradley Taunt - [btxx.org](https://btxx.org/){target="_blank"}
 
 Henry Desroches - [henry.codes](https://henry.codes/){target="_blank"}
 
-Derek Sivers - [https://sive.rs](https://sive.rs){target="_blank"}
+Derek Sivers - [sive.rs](https://sive.rs){target="_blank"}
