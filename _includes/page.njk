@@ -16,11 +16,8 @@
       {% include "navigation.njk" %}
     </aside>
     <main id="content">
-      <h1>{{ title }}</h1>
-      {{ content | safe }}
-      <small>This page was last modified: {{ page.date.toLocaleString('en-AU') }}</small>
-      <br />
-      <small>This website was last deployed: {{ page.date.toLocaleString('en-AU') }}</small>
+        <h1>{{ title }}</h1>
+        {{ content | safe }}
     </main>
     {% include "footer.njk" %}
   </body>

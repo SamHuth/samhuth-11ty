@@ -6,8 +6,4 @@ meta:
 date: Last Modified
 ---
 
-## Notes
-
-lorem
-
-lorem
+IF I ever have a good thought.. it will go here.

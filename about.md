@@ -5,9 +5,6 @@ meta:
     description: 'Notes'
 date: Last Modified
 ---
+All about me.
 
-## Notes
-
-lorem
-
-lorem
+...

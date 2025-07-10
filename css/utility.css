@@ -1,3 +1,4 @@
+/* Utility Classes */
 @layer utility {
 
     [href="#content"]{
@@ -7,12 +8,23 @@
         width: 1px;
         height: 1px;
         overflow: hidden;
+        grid-area: "skip";
     }
     
     [href="#content"]:focus{
-        position: static;
+        position: fixed;
         width: auto;
         height: auto;
+        left: 1rem;
+        top: 1rem;
     }
 
+    #nav-heading{
+        margin-top: 72px;
+    }
+    @media only screen and (max-width:768px) {
+        #nav-heading{
+            margin-top: 0px;
+        }
+    }
 }

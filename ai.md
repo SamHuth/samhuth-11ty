@@ -5,23 +5,24 @@ meta:
   description: 'Thoughts, Opinions and my approach to AI as a Developer.'
 date: Last Modified
 ---
+My unprompted 2&cent;.
 
 ## How I use/don't use AI
 
-Artificial Intelligence (AI) is pretty cool and can serve some really interesting functions. AI shows it's best value when used as a tool, not when it's forced into places it doesn't need to be. Most common use case for it today, seems to be to create slop.
+<abbr title="Artificial Intelligence">AI</abbr> can do things.. sometimes correctly. If you can use it to get help where you need it, good stuff. Tech on the AI hype train inserting it into everything possible.. bad stuff. 
 
 
-### How I use AI
+### How I have used AI
 
-AI is great at simulating another developer when you need assistance.
+AI is *okay* at simulating another developer when you need assistance.
 
-- **Rubber Ducking** - Explaining and abstracting your problems to a AI chat interface is excellent in the absence of another human to talk to.
-- **Code Review** - Github extensions like [CodeRabbitAi](https://www.coderabbit.ai/){target="_blank"} are good for an extra set of eyes on a Pull Request review. Although prone to mistakes and  bizarre suggestions, it's useful enough to find standard practices that have been missed.
+- **Rubber Ducking** - Explaining and abstracting your problems in the absence of another human works pretty well.
+- **Code Review** - Github extensions like [CodeRabbitAi](https://www.coderabbit.ai/){target="_blank"} are good for an extra set of eyes on a <abbr title="Pull Request">PR</abbr> review to pick up on small things. However it will make unnecessary suggestions if it can't find something to comment on.
 
 
-### How I don't use AI
+### How I will never use AI
 
-I will never use AI in place of my self to write or to code. There is no need to make core human actions "automated" or "more efficient".
+I will never use AI in place of my self to write or to code. There is no need to replace your brain for human actions.
 
-- **Writing** - Writing is an expression of the self and should come from the human. Using AI to write personal messages (like emails, cover letters) is not genuine and shows no respect to the person you are addressing.
-- **Coding** - As helpful as Copilot may be, an experienced developer will know what to write, and a less experience developer will need to understand what they wrote. It can slow down progress trying to decipher suggestions and regenerate each time. You lose all learning potential when you rely on something else to do the critical thinking for you.
+- **Writing** - Writing is an expression of the self and should come from you. Using AI to write personal messages (like emails, cover letters, etc) shows you have no respect.
+- **Coding** - An experienced developer will know what they are writing, and a less experienced developer will need to understand what they are writing. It can slow down progress trying to decipher suggestions, and you lose all learning potential when you rely on it to do the critical thinking.

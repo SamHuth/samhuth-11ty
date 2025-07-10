@@ -5,10 +5,9 @@ meta:
   description: 'Other people I regularly visit.'
 date: Last Modified
 ---
+Recommended reading.
 
-## Other people I regularly visit
-
-A curated list of other people's blogs I regularly visit.
+## Check these people out
 
 Tom Macwright - [macwright.com](https://macwright.com/){target="_blank"}
 

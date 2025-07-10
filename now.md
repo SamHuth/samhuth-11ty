@@ -5,14 +5,12 @@ meta:
   description: 'What I am up to now?'
 date: Last Modified
 ---
+Now Now Now.
 
-## What am I up to now?
-
-Managing digital spaces as the Website Manager at [Oxworks](https://www.oxworks.com.au){target="_blank"}.
-
-## Working
-## Building
-## Watching
 ## Listening
-## Reading
 
+## Playing
+[]()
+
+## Reading
+[Web Accessibility Cookbook - Manuel Matuzović](https://accessibility-cookbook.com/){target="_blank"}
