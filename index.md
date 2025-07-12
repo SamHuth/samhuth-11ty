@@ -1,8 +1,8 @@
 ---
 layout: page.njk
-title: HOME
+title: home
 meta:
-  description: 'Personal website of Sam Huth, Web Developer from Brisbane Australia.'
+  description: 'the personal website of samuel huth, web developer from brisbane australia.'
 date: Last Modified
 ---
 

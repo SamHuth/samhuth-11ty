@@ -1,8 +1,8 @@
 ---
 layout: page.njk
-title: BLOGROLL
+title: blogroll
 meta:
-  description: 'Other people I regularly visit.'
+  description: "other people's blogs i read, and you should visit."
 date: Last Modified
 ---
 Recommended reading.

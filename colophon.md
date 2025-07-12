@@ -1,8 +1,8 @@
 ---
 layout: page.njk
-title: COLOPHON
+title: colophon
 meta:
-  description: 'About this Website.'
+  description: 'the technical workings behind this website.'
 date: Last Modified
 ---
 How and why I built this website.

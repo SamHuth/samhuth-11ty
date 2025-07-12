@@ -1,8 +1,8 @@
 ---
 layout: page.njk
-title: NOTES
+title: notes
 meta:
-    description: 'Notes'
+    description: 'wisdom can be found here.'
 date: Last Modified
 ---
 

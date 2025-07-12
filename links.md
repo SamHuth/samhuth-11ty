@@ -1,8 +1,8 @@
 ---
 layout: page.njk
-title: LINKS
+title: links
 meta:
-  description: 'Frontend Developer from Brisbane Australia, specialising in RedwoodJS (React), WordPress + WooCommerce, and Eleventy.'
+  description: 'collection of links to interesting sites.'
 date: Last Modified
 ---
 Go surf the web and find something cool.
