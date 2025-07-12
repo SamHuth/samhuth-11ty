@@ -1,15 +1,13 @@
 ---
 layout: page.njk
-title: /blogroll
+title: blogroll
 meta:
-    description: 'Other people I regularly visit.'
+  description: "other people's blogs i read, and you should visit."
 date: Last Modified
 ---
-<h2 class="custom-font pb-sm">Other people I regularly visit</h2>
+Recommended reading.
 
-A curated list of other people's blogs I regularly visit.
-
-<br />
+## Check these people out
 
 Tom Macwright - [macwright.com](https://macwright.com/){target="_blank"}
 
@@ -29,4 +27,4 @@ Bradley Taunt - [btxx.org](https://btxx.org/){target="_blank"}
 
 Henry Desroches - [henry.codes](https://henry.codes/){target="_blank"}
 
-
+Derek Sivers - [sive.rs](https://sive.rs){target="_blank"}

@@ -1,7 +1,20 @@
 ---
-layout: main.njk
-title: 'Frontend Developer | Samuel Huth'
+layout: page.njk
+title: home
 meta:
-    description: 'Frontend Developer from Brisbane Australia, specialising in RedwoodJS (React), WordPress + WooCommerce, and Eleventy.'
+  description: 'the personal website of samuel huth, web developer from brisbane australia.'
 date: Last Modified
 ---
+
+Welcome to my digital space. 
+
+## G'day
+
+
+I build websites with 11ty, WordPress and React.
+
+<br />
+
+Want help with yours?
+[Send me an email](mailto:sams.huth@gmail.com) or visit [Branching Web](https://www.branchingweb.com.au/){target="_blank"}.
+

@@ -1,20 +1,20 @@
 ---
 layout: page.njk
-title: /now
+title: now
 meta:
-    description: 'What I am up to now?'
+  description: 'what i am up to now?'
 date: Last Modified
 ---
-<h2 class="custom-font pb-sm">What am I up to now?</h2>
+Now Now Now.
 
-Making up time for myself and my family while on a break from work.
+## Projects
+Planning some new things to start..
 
-Looking at full-time opportunities as they come.
+## Reading
+[Web Accessibility Cookbook - Manuel Matuzović](https://accessibility-cookbook.com/){target="_blank"}
+[The Star Diaries - Stanislaw Lem](https://www.penguin.com.au/books/the-star-diaries-9780241240021){target="_blank"}
 
-<br />
-
-Occasional freelance projects: [Send me an email](mailto:sams.huth@gmail.com) if you need help with Wordpress/React work.
-
-<br />
-
-Slowly making progress on a [Budget/Finance overview app](https://github.com/SamHuth/legolas){target="_blank"} with the features I want to see.
+## Playing
+[Balatro](https://store.steampowered.com/app/2379780/Balatro/){target="_blank"}
+[Half Life](https://store.steampowered.com/app/70/HalfLife/){target="_blank"}
+[Gran Turismo 7](https://www.gran-turismo.com/au/products/gt7/){target="_blank"}

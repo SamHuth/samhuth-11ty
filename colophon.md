@@ -1,26 +1,25 @@
 ---
 layout: page.njk
-title: /colophon
+title: colophon
 meta:
-    description: 'About this Website.'
+  description: 'the technical workings behind this website.'
 date: Last Modified
 ---
-<h2 class="custom-font pb-sm">About this website</h2>
+How and why I built this website.
 
-Not much to it. Keeping it simple.
-<br />
+## What I want this website to be
 
-HTML + CSS
-[Bagnard Regular](https://open-foundry.com/fonts/bagnard_regular){target="_blank"} for fancy headings.
-[System Font Stack](https://systemfontstack.com/){target="_blank"} for everything else.
+As with all web developers, I too continually give in to the urge to redesign my personal website every 6 months. So this time I wanted to *really* make it the best one I can.
 
-<br />
+I wanted to spend the time crafting my words, building a light-weight, stylish, energy efficient website, and keep accessibility in mind at all times. 
 
-Generated with [11ty.](https://www.11ty.dev/){target="_blank"}
-[View the _quality_ code](https://github.com/SamHuth/samhuth-11ty){target="_blank"}
+## What I used to make this website
 
-<br />
+This website is generated with [11ty](https://www.11ty.dev/){target="_blank"}. I create Markdown files and the website gets generated into static <abbr title="Hypertext Markup Language">HTML</abbr>.
 
-Hosted on [Netlify.](https://www.netlify.com/){target="_blank"}
-Repository on [Github.](https://www.github.com/){target="_blank"}
+For <abbr title="Cascading Style Sheets">CSS</abbr>, I use a [modern CSS Reset](https://piccalil.li/blog/a-modern-css-reset){target="_blank"}, and follow the [HUG CSS Methodology](https://gomakethings.com/hug-css-how-i-approach-css-architecture/){target="_blank"} to keep things simple.
 
+
+[System Font Stack](https://systemfontstack.com/){target="_blank"} for most content, but the headings are [Bagnard Regular](https://open-foundry.com/fonts/bagnard_regular){target="_blank"}.
+
+This website is hosted on [Netlify](https://www.netlify.com/){target="_blank"}, and the repository is on [GitHub](https://github.com/SamHuth/samhuth-11ty){target="_blank"}.
