@@ -67,6 +67,7 @@
     a b {
         color: var(--accent);
         font-weight: bold;
+        position: relative;
     }
     
     a:hover, a:focus,
@@ -82,7 +83,7 @@
         outline-offset: 4px;
     }
     a[target="_blank"]:after{
-        content: " 🡵";
+        content: " ⌝";
     }
 
     ul, ol{
