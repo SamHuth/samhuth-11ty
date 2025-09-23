@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-title: notes
+title: Notes
 meta:
     description: 'wisdom can be found here.'
 date: Last Modified

@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-title: colophon
+title: Colophon
 meta:
   description: 'the technical workings behind this website.'
 date: Last Modified

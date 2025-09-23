@@ -19,7 +19,7 @@
         /* font-family: Menlo, Consolas, Monaco, Adwaita Mono, Liberation Mono, Lucida Console, monospace; */
         color: var(--text);
         margin-bottom: 0.5em;
-        text-transform: lowercase;
+        /* text-transform: lowercase; */
     }
 
     h1, h2, h3, h4, h5, h6{
