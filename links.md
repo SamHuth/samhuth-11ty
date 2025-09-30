@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-title: links
+title: Links
 meta:
   description: 'collection of links to interesting sites.'
 date: Last Modified
@@ -25,3 +25,5 @@ Go surf the web and find something cool.
 [https://bsky.app/profile/classicweb.site](https://bsky.app/profile/classicweb.site){target="_blank"}
 [https://slashpages.net/](https://slashpages.net/){target="_blank"}
 [https://choochooworld.com/](https://choochooworld.com/){target="_blank"}
+[https://code-poetry.com](https://code-poetry.com){target="_blank"}
+[https://esif.dev](https://esif.dev){target="_blank"}

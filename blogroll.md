@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-title: blogroll
+title: Blogroll
 meta:
   description: "other people's blogs i read, and you should visit."
 date: Last Modified
