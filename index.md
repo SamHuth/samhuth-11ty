@@ -10,7 +10,6 @@ Welcome to my digital space.
 
 ## G'day
 
-
 I build websites with 11ty, WordPress and React.
 
 <br />
