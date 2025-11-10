@@ -74,7 +74,8 @@
     a:hover sup, a:focus sup,
     a:hover em, a:focus em,
     a:hover strong, a:focus strong,
-    a:hover b, a:focus b {
+    a:hover b, a:focus b,
+    a[aria-current="true"] {
         color: var(--accent-alt);
     }
 
