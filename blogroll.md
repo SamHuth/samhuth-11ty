@@ -7,6 +7,11 @@ date: Last Modified
 ---
 Recommended reading.
 
+<br />
+
+![space image dithered](/img/dither-bg.jpg)
+
+
 ## Check these people out
 
 Tom Macwright - [macwright.com](https://macwright.com/){target="_blank"}

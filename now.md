@@ -7,18 +7,22 @@ date: Last Modified
 ---
 Now Now Now.
 
+<br />
+
+![space image dithered](/img/dither-bg.jpg)
+
+
 ## Projects
-Planning some new things to start..
+Purchasing domains and not doing anything with them.
+[seq.gallery](https://seq.gallery){target="_blank"}
 
 ## Reading
-[Web Accessibility Cookbook - Manuel Matuzović](https://accessibility-cookbook.com/){target="_blank"}
 [The Star Diaries - Stanislaw Lem](https://www.penguin.com.au/books/the-star-diaries-9780241240021){target="_blank"}
-[Doom and Bloom - Campbell Walker](https://publishing.hardiegrant.com/en-au/books/doom-and-bloom-by-campbell-walker/9781761450563){target="_blank"}
-[Useful not True - Derek Sivers](https://sive.rs/u){target="_blank"}
+[Sublimia Syndrome - Exurb1a](https://www.goodreads.com/book/show/240952237-sublimia-syndrome){target="_blank"}
 
 ## Playing
-[Death Stranding (Directors Cut)](https://store.playstation.com/en-us/product/UP9000-PPSA01969_00-DEATHSTRADCDDE01/){target="_blank"}
-[Half Life](https://store.steampowered.com/app/70/HalfLife/){target="_blank"}
+[Megabonk](https://store.steampowered.com/app/3405340/Megabonk/){target="_blank"}
+[Battlefield 6](hhttps://store.steampowered.com/app/2807960/Battlefield_6/){target="_blank"}
+[Read Dead Redemption 2](https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/){target="_blank"}
 [Balatro](https://store.steampowered.com/app/2379780/Balatro/){target="_blank"}
 [Gran Turismo 7](https://www.gran-turismo.com/au/products/gt7/){target="_blank"}
-[Skyrim](https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/){target="_blank"}

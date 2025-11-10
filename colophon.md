@@ -7,6 +7,11 @@ date: Last Modified
 ---
 How and why I built this website.
 
+<br />
+
+![space image dithered](/img/dither-bg.jpg)
+
+
 ## What I want this website to be
 
 As with all web developers, I too continually give in to the urge to redesign my personal website every 6 months. So this time I wanted to *really* make it the best one I can.
