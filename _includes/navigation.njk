@@ -1,12 +1,12 @@
 <nav aria-labelledby="nav-heading">
     <h2 id="nav-heading">Menu</h2>
     <ul>
-        <li><a href="/">/home</a></li>
-        <li><a href="/notes">/notes</a></li>
-        <li><a href="/colophon">/colophon</a></li>
-        <li><a href="/now">/now</a></li>
-        <li><a href="/reading">/reading</a></li>
-        <li><a href="/links">/links</a></li>
-        <li><a href="/blogroll">/blogroll</a></li>
+        <li><a aria-current="{{ page.filePathStem === '/index' }}" href="/">/home</a></li>
+        <li><a aria-current="{{ page.filePathStem === '/notes' }}" href="/notes">/notes</a></li>
+        <li><a aria-current="{{ page.filePathStem === '/colophon' }}" href="/colophon">/colophon</a></li>
+        <li><a aria-current="{{ page.filePathStem === '/now' }}" href="/now">/now</a></li>
+        <li><a aria-current="{{ page.filePathStem === '/reading' }}" href="/reading">/reading</a></li>
+        <li><a aria-current="{{ page.filePathStem === '/links' }}" href="/links">/links</a></li>
+        <li><a aria-current="{{ page.filePathStem === '/blogroll' }}" href="/blogroll">/blogroll</a></li>
     </ul>
 </nav>
