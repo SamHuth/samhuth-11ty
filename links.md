@@ -9,6 +9,9 @@ Go surf the web and find something cool.
 
 <br />
 
+![space image dithered](/img/dither-bg.jpg)
+
+## Try these on for size
 
 [https://gossipsweb.net/](https://gossipsweb.net){target="_blank"}
 [https://diagram.website/](https://diagram.website){target="_blank"}
