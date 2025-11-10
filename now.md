@@ -7,12 +7,13 @@ date: Last Modified
 ---
 Now Now Now.
 
-![](/img/header-now.gif)
+<br />
+
+![space image dithered](/img/dither-bg.jpg)
+
 
 ## Projects
-Purchasing domains and not doing anything with them.
-[seq.gallery](https://seq.gallery){target="_blank"}
-[dawave.zone](http://dawave.zone){target="_blank"}
+Planning some new things to start..
 
 ## Reading
 [The Star Diaries - Stanislaw Lem](https://www.penguin.com.au/books/the-star-diaries-9780241240021){target="_blank"}
