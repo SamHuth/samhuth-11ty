@@ -2,16 +2,15 @@
 layout: page.njk
 title: Books
 meta:
-    description: 'Books I have read and recommend'
+    description: 'Books I have bought and finished.'
 date: Last Modified
 ---
 
 Check em out
-<br />
 
-![space image dithered](/img/dither-bg.jpg)
+![](/img/header-bookshelf.gif)
 
-## Some Good Reads
+## Finished Books on the shelf
 
 ### 2025
 
@@ -25,14 +24,22 @@ Fantastic for reframing thoughts and asking tricky internal questions. Many grea
 Excellent short snippets and thought provoking quotes. Presents great options to challenge the way you think and act.
 
 ### 2024
--
-### 2023
--
-### 2022
--
-### 2021
--
-### 2020
--
 
-_I will eventually add the rest of my backlog to this..._
+Ultra 85 - Logic
+Valuable Humans in Transit - qntm
+There is No Antimemetics Division - qntm
+The Mysteries - Bill Watterson and John Kascht
+
+### 2023
+Geometry for Ocelots - Exurb1a
+Poems for the lost because I'm lost - Exurb1a
+The Fifth Science - Exurb1a
+Sapiens - Yuval Noah Harari
+
+### 2022
+The Republic - Plato
+Finding Flow - Mihaly Csikszentmihalyi
+Creativity: The Psychology of Discovery and Invention - Mihaly Csikszentmihalyi
+Reality is Broken - Jane McGonigal
+The Consolations of Philosophy - Alain de Botton
+

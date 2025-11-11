@@ -5,12 +5,10 @@ meta:
   description: "other people's blogs i read, and you should visit."
 date: Last Modified
 ---
+
 Recommended reading.
 
-<br />
-
-![space image dithered](/img/dither-bg.jpg)
-
+![](/img/header-blogroll.gif)
 
 ## Check these people out
 

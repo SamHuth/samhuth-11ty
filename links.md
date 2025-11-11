@@ -7,9 +7,7 @@ date: Last Modified
 ---
 Go surf the web and find something cool.
 
-<br />
-
-![space image dithered](/img/dither-bg.jpg)
+![](/img/header-links.gif)
 
 ## Try these on for size
 
