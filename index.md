@@ -10,7 +10,7 @@ Welcome to my digital space.
 
 <br />
 
-![Samuel Huth](/img/samuel_huth.png)
+![Samuel Huth](/img/samuel-huth.gif)
 
 ## G'day
 

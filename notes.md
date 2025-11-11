@@ -8,11 +8,9 @@ date: Last Modified
 
 IF I ever have a good thought.. it will go here.
 
-<br />
-
-![space image dithered](/img/dither-bg.jpg)
+![](/img/header-notes.gif)
 
 ## Anything?
 
 
-...I have no good thoughts
+...I have nothing to share right now.
