@@ -12,7 +12,7 @@
   "author": "Samuel Huth",
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.1"
+    "@11ty/eleventy": "^3.1.2"
   },
   "devDependencies": {
     "markdown-it-attrs": "^4.3.1",

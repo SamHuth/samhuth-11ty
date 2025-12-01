@@ -31,3 +31,6 @@ Bradley Taunt - [btxx.org](https://btxx.org/){target="_blank"}
 Henry Desroches - [henry.codes](https://henry.codes/){target="_blank"}
 
 Derek Sivers - [sive.rs](https://sive.rs){target="_blank"}
+
+Chase McCoy - [chsmc.org](https://chsmc.org/){target="_blank"}
+
