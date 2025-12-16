@@ -24,7 +24,7 @@ Fantastic for reframing thoughts and asking tricky internal questions. Many grea
 Excellent short snippets and thought provoking quotes. Presents great options to challenge the way you think and act.
 
 [Sublimia Syndrome - Exurb1a](https://www.goodreads.com/book/show/240952237-sublimia-syndrome){target="_blank"}
-Five short stories in one book. Canonically take place over thousands of years. Easy to pick up at any point. Love the <abbr title="Science Fiction">sci-fi</abbr> storyline and philosophicl and metaphysical vibes of this one. 
+Five short stories in one book. Canonically take place over thousands of years. Easy to pick up at any point. Love the <abbr title="Science Fiction">sci-fi</abbr> storyline and philosophical and metaphysical vibes of this one. Always left a chapter thinking more about the story and premise.
 
 ### 2024
 
