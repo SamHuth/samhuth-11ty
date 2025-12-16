@@ -1,8 +1,8 @@
 ---
 layout: page.njk
-title: Samuel Huth | Web Developer
+title: Home
 meta:
-  description: 'Web development, SEO, UX Design and Accessability. Visit the personal website of Samuel Huth, web developer from Brisbane, Australia.'
+  description: 'Web development, SEO, UX Design and Accessability. The personal website of Samuel Huth, Web Developer from Brisbane, Australia.'
 date: Last Modified
 ---
 

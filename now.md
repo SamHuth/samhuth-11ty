@@ -2,7 +2,7 @@
 layout: page.njk
 title: Now
 meta:
-  description: 'what i am up to now?'
+  description: 'What i am up to now?'
 date: Last Modified
 ---
 Now Now Now.

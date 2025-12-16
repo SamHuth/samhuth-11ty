@@ -2,11 +2,11 @@
 layout: page.njk
 title: Blogroll
 meta:
-  description: "other people's blogs i read, and you should visit."
+  description: "Recommended reading.. in no particular order"
 date: Last Modified
 ---
 
-Recommended reading.
+Recommended reading.. in no particular order.
 
 ![](/img/header-blogroll.gif)
 
@@ -33,4 +33,8 @@ Henry Desroches - [henry.codes](https://henry.codes/){target="_blank"}
 Derek Sivers - [sive.rs](https://sive.rs){target="_blank"}
 
 Chase McCoy - [chsmc.org](https://chsmc.org/){target="_blank"}
+
+Adam Silver - [adamsilver.io](https://adamsilver.io/){target="_blank"}
+
+Chris Ferdinandi - [gomakethings.com](https://gomakethings.com/){target="_blank"}
 

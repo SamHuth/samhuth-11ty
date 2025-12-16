@@ -2,10 +2,21 @@
 @layer html {
 
     :root{
-        --accent: #09b081;
-        --accent-alt: #d2ad1a;
-        --text: #dbdbdb;
+        --accent: #00815c;
+        --accent-alt: #c92b66;
+        --text: #1f3029;
+        --background: #e8fcec;
     }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --accent: #09b081;
+            --accent-alt: #d2ad1a;
+            --text: #dbdbdb;
+            --background: #17171c;
+        }
+    }
+
     @font-face {
     /* https://open-foundry.com/fonts/bagnard_regular */
     font-family: Bagnard;
@@ -27,7 +38,7 @@
     }
 
     html{
-        background-color: #17171c;
+        background-color: var(--background);
     }
     body{
         padding: 2rem;
