@@ -2,15 +2,16 @@
 layout: page.njk
 title: Links
 meta:
-  description: 'collection of links to interesting sites.'
+  description: 'Go surf the web and find something cool'
 date: Last Modified
 ---
-Try these on for size.
+Go surf the web and find something cool
 
 ![](/img/header-links.gif)
 
-## Go surf the web and find something cool
+<br />
 
+[Resonant Computing](https://resonantcomputing.org/){target="_blank"}
 [Gossip's Web](https://gossipsweb.net){target="_blank"}
 [Diagram Website](https://diagram.website){target="_blank"}
 [One Minute Park](https://oneminutepark.tv){target="_blank"}

@@ -2,7 +2,7 @@
 layout: page.njk
 title: Books
 meta:
-    description: 'Books I have bought and finished.'
+    description: 'Recent reads'
 date: Last Modified
 ---
 
@@ -10,7 +10,7 @@ Check em out
 
 ![](/img/header-bookshelf.gif)
 
-## Finished Books on the shelf
+## Recent Reads
 
 ### 2025
 
@@ -22,6 +22,9 @@ Fantastic for reframing thoughts and asking tricky internal questions. Many grea
 
 [Useful not True - Derek Sivers](https://sive.rs/u){target="_blank"}
 Excellent short snippets and thought provoking quotes. Presents great options to challenge the way you think and act.
+
+[Sublimia Syndrome - Exurb1a](https://www.goodreads.com/book/show/240952237-sublimia-syndrome){target="_blank"}
+Five short stories in one book. Canonically take place over thousands of years. Easy to pick up at any point. Love the <abbr title="Science Fiction">sci-fi</abbr> storyline and philosophicl and metaphysical vibes of this one. 
 
 ### 2024
 
