@@ -9,6 +9,8 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('css');
   eleventyConfig.addPassthroughCopy('img');
+  eleventyConfig.addPassthroughCopy('img');
+  eleventyConfig.addPassthroughCopy({ 'robots.txt': 'robots.txt' });
 
   // Add target=blank custom code
   const mdOptions = {
