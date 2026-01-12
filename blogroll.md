@@ -40,3 +40,5 @@ Chris Ferdinandi - [gomakethings.com](https://gomakethings.com/){target="_blank"
 
 Matt Webb - [interconnected.org](https://interconnected.org/home/){target="_blank"}
 
+Jeremy Keith - [adactio.com](https://adactio.com/){target="_blank"}
+

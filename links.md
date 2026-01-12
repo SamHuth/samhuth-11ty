@@ -28,4 +28,6 @@ Go surf the web and find something cool
 [./code --poetry](https://code-poetry.com){target="_blank"}
 [Educational Sensational Inspirational Foundational](https://esif.dev){target="_blank"}
 [The Horse Button](https://spax.zone/horse/){target="_blank"}
+[Library of Time](https://libraryoftime.xyz/){target="_blank"}
+[words.zip](https://words.zip/){target="_blank"}
 
