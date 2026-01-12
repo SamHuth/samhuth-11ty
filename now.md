@@ -7,8 +7,6 @@ date: Last Modified
 ---
 Now Now Now.
 
-<br />
-
 ![space image dithered](/img/dither-bg.jpg)
 
 

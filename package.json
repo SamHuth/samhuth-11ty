@@ -12,7 +12,8 @@
   "author": "Samuel Huth",
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.2"
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-img": "^6.0.4"
   },
   "devDependencies": {
     "markdown-it-attrs": "^4.3.1",

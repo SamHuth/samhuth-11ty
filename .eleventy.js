@@ -1,5 +1,6 @@
 const markdownIt = require('markdown-it');
 const markdownItAttrs = require('markdown-it-attrs');
+const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 
 module.exports = function (eleventyConfig) {
   // Eleventy PassThrough
@@ -23,6 +24,8 @@ module.exports = function (eleventyConfig) {
   };
 
   const markdownLib = markdownIt(mdOptions).use(markdownItAttrs).disable('code');
-
   eleventyConfig.setLibrary('md', markdownLib);
+
+  // 11ty image plugin
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin);
 };
