@@ -13,7 +13,6 @@ Check em out
 ## Recent Reads
 
 ### 2026
-
 [Dark Emu - Bruce Pascoe](https://www.goodreads.com/book/show/21401526-dark-emu){target="_blank"}
 
 ### 2025

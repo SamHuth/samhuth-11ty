@@ -11,22 +11,21 @@ Now Now Now.
 
 
 ## Projects
-Helping Australians find local sporting clubs [findaclub.com.au](https://findaclub.com.au){target="_blank"}
-
-<br />
-
 Purchasing domains and not doing anything with them.
 [seq.gallery](https://seq.gallery){target="_blank"}
 [dawave.zone](http://dawave.zone){target="_blank"}
 
 ## Reading
-[Sublimia Syndrome - Exurb1a](https://www.goodreads.com/book/show/240952237-sublimia-syndrome){target="_blank"}
+[Dark Emu - Bruce Pascoe](https://www.goodreads.com/book/show/21401526-dark-emu){target="_blank"}
 
 ## Playing
-[Megabonk](https://store.steampowered.com/app/3405340/Megabonk/){target="_blank"}
-[Battlefield 6](hhttps://store.steampowered.com/app/2807960/Battlefield_6/){target="_blank"}
+[9 Kings](https://store.steampowered.com/app/2784470/9_Kings/){target="_blank"}
 [Balatro](https://store.steampowered.com/app/2379780/Balatro/){target="_blank"}
-[Gran Turismo 7](https://www.gran-turismo.com/au/products/gt7/){target="_blank"}
 
 ## Listening
-[The Univa Trilogy by TURQUOISEDEATH](https://turquoisedeath.bandcamp.com/album/the-univa-trilogy){target="_blank"}
+
+![The Univa Trilogy by TURQUOISEDEATH](https://f4.bcbits.com/img/a3611984997_16.jpg){class="profile"}[The Univa Trilogy by TURQUOISEDEATH](https://turquoisedeath.bandcamp.com/album/the-univa-trilogy){target="_blank"}
+
+ <br />
+
+![SuperBloom by Silent Planet](https://f4.bcbits.com/img/a1339594928_16.jpg){class="profile"}[SuperBloom by Silent Planet](https://silentplanetbandofficial.bandcamp.com/album/superbloom){target="_blank"}
