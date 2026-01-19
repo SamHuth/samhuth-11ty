@@ -1,11 +1,20 @@
-<nav aria-labelledby="nav-heading">
-    <h2 id="nav-heading">Menu</h2>
-    <ul>
-        <li><a aria-current="{{ page.filePathStem === '/index' }}" href="/">/home</a></li>
-        <li><a aria-current="{{ page.filePathStem === '/now' }}" href="/now">/now</a></li>
-        <li><a aria-current="{{ page.filePathStem === '/bookshelf' }}" href="/bookshelf">/bookshelf</a></li>
-        <li><a aria-current="{{ page.filePathStem === '/links' }}" href="/links">/links</a></li>
-        <li><a aria-current="{{ page.filePathStem === '/blogroll' }}" href="/blogroll">/blogroll</a></li>
-        <li><a aria-current="{{ page.filePathStem === '/colophon' }}" href="/colophon">/colophon</a></li>
-    </ul>
-</nav>
+<div>
+    <header>
+        <p>
+            <b>Samuel Huth</b>
+            <small>Web Developer</small>
+            <small>I build things on the web.</small>
+        </p>
+    </header>
+    <nav aria-labelledby="nav-heading">
+        <ul>
+            <li><a aria-current="{{ page.filePathStem === '/index' }}" href="/">/home</a></li>
+            <li><a aria-current="{{ page.filePathStem === '/now' }}" href="/now">/now</a></li>
+            <li><a aria-current="{{ page.filePathStem === '/bookshelf' }}" href="/bookshelf">/bookshelf</a></li>
+            <li><a aria-current="{{ page.filePathStem === '/links' }}" href="/links">/links</a></li>
+            <li><a aria-current="{{ page.filePathStem === '/blogroll' }}" href="/blogroll">/blogroll</a></li>
+            <li><a aria-current="{{ page.filePathStem === '/colophon' }}" href="/colophon">/colophon</a></li>
+            <li><a aria-current="{{ page.filePathStem === '/photos' }}" href="/photos">/photos</a></li>
+        </ul>
+    </nav>
+</div>

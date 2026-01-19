@@ -7,8 +7,7 @@ date: Last Modified
 ---
 Now Now Now.
 
-![space image dithered](/img/dither-bg.jpg)
-
+<img src="/img/header-now.gif" alt="" eleventy:ignore>
 
 ## Projects
 Purchasing domains and not doing anything with them.

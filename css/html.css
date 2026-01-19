@@ -1,20 +1,14 @@
 /* HTML Elements */
 @layer html {
 
-    :root{
-        --accent: #00815c;
-        --accent-alt: #c92b66;
-        --text: #1f3029;
-        --background: #e8fcec;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        :root {
-            --accent: #09b081;
-            --accent-alt: #d2ad1a;
-            --text: #dbdbdb;
-            --background: #17171c;
-        }
+    :root {
+        --accent: #09b081;
+        --accent-alt: #d2ad1a;
+        --text: #dbdbdb;
+        --text-alt: #a0a0a0;
+        --background-theme: #17171c;
+        --background: #1c1c1f;
+        --section-padding: 2rem;
     }
 
     @font-face {
@@ -41,33 +35,49 @@
         background-color: var(--background);
     }
     body{
-        padding: 2rem;
         width: 100%;
         max-width: 90ch;
         margin: 0 auto;
         display: grid;
         grid-template-areas: 
-        "aside skip"
-        "aside header"
-        "aside main"
-        "aside footer";
-        gap: 1rem 2rem;
+        "skip aside"
+        "header aside"
+        "main aside"
+        "footer aside";
+        /* gap: 1rem 2rem; */
         grid-template-rows: auto auto 1fr auto;
-        grid-template-columns: auto 1fr;
+        grid-template-columns: 1fr auto;
+        background-color: var(--background-theme);
     }
     main{
         grid-area: main;
+        padding: var(--section-padding);
+        border-top: 5px solid var(--accent);
+        
     }
     aside{
         grid-area: aside;
+        background-color: var(--background);
+        padding: var(--section-padding);
     }
-    header {
-        grid-area: header;
+    header *{
+        display: block;
+        color: var(--text-alt);
+        margin-bottom: 0;
+        font-style: italic;
     }
     footer {
         grid-area: footer;
+        border-top: 5px solid var(--accent);
+        background: var(--background);
+        padding: var(--section-padding);
+        text-align: center;
+        font-size: small;
     }
-
+    hr{
+       border: 2.5px solid var(--accent);
+       margin-bottom: 2rem;
+    }
     a,
     a sup,
     a em,
@@ -141,6 +151,9 @@
     }
 
     @media only screen and (max-width:768px) {
+        :root{
+            --section-padding: 1rem 2rem;
+        }
         body{
             grid-template-areas: 
             "skip"
@@ -153,6 +166,8 @@
         }
         aside{
             text-align: left;
+            background-color: var(--background-theme);
+
         }
     }
 }
