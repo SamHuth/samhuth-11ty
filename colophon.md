@@ -8,7 +8,7 @@ date: Last Modified
 
 How and why I built this website.
 
-![](/img/header-colophon.gif)
+<img src="/img/header-colophon.gif"  alt="" eleventy:ignore>
 
 ## What I want this website to be
 

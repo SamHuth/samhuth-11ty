@@ -7,7 +7,7 @@ date: Last Modified
 ---
 Go surf the web and find something cool
 
-![](/img/header-links.gif)
+<img src="/img/header-links.gif"  alt="" eleventy:ignore>
 
 <br />
 
@@ -30,4 +30,5 @@ Go surf the web and find something cool
 [The Horse Button](https://spax.zone/horse/){target="_blank"}
 [Library of Time](https://libraryoftime.xyz/){target="_blank"}
 [words.zip](https://words.zip/){target="_blank"}
+[personalsit.es](https://personalsit.es/){target="_blank"}
 

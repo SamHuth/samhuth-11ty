@@ -8,7 +8,7 @@ date: Last Modified
 
 Check em out
 
-![](/img/header-bookshelf.gif)
+<img src="/img/header-bookshelf.gif"  alt="" eleventy:ignore>
 
 ## Recent Reads
 
@@ -18,16 +18,12 @@ Check em out
 ### 2025
 
 [Web Accessibility Cookbook - Manuel Matuzović](https://accessibility-cookbook.com/){target="_blank"}
-Comprehensive write up to cover all the necessities of web development. Filled in the gaps in my knowledge and covers just about everything you need to know for a resilient and accessible frontend.
 
 [Doom and Bloom - Campbell Walker](https://publishing.hardiegrant.com/en-au/books/doom-and-bloom-by-campbell-walker/9781761450563){target="_blank"}
-Fantastic for reframing thoughts and asking tricky internal questions. Many great takeaway lessons that you can use to reflect.
 
 [Useful not True - Derek Sivers](https://sive.rs/u){target="_blank"}
-Excellent short snippets and thought provoking quotes. Presents great options to challenge the way you think and act.
 
 [Sublimia Syndrome - Exurb1a](https://www.goodreads.com/book/show/240952237-sublimia-syndrome){target="_blank"}
-Five short stories in one book. Canonically take place over thousands of years. Easy to pick up at any point. Love the <abbr title="Science Fiction">sci-fi</abbr> storyline and philosophical and metaphysical vibes of this one. Always left a chapter thinking more about the story and premise.
 
 ### 2024
 

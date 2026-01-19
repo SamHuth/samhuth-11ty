@@ -8,7 +8,7 @@ date: Last Modified
 
 Recommended reading.. in no particular order.
 
-![](/img/header-blogroll.gif)
+<img src="/img/header-blogroll.gif"  alt="" eleventy:ignore>
 
 ## Check these people out
 

@@ -10,7 +10,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('css');
   eleventyConfig.addPassthroughCopy('img');
-  eleventyConfig.addPassthroughCopy('img');
+  eleventyConfig.addPassthroughCopy('photos');
   eleventyConfig.addPassthroughCopy({ 'robots.txt': 'robots.txt' });
 
   // Current Year
@@ -26,6 +26,6 @@ module.exports = function (eleventyConfig) {
   const markdownLib = markdownIt(mdOptions).use(markdownItAttrs).disable('code');
   eleventyConfig.setLibrary('md', markdownLib);
 
-  // 11ty image plugin
   eleventyConfig.addPlugin(eleventyImageTransformPlugin);
+
 };

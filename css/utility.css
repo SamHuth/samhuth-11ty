@@ -22,6 +22,15 @@
     #nav-heading{
         margin-top: 72px;
     }
+
+    .single-photo{
+        text-align: center;
+    }
+    
+    .single-photo h1{
+        margin: 0 0 20px;
+    }
+
     @media only screen and (max-width:768px) {
         #nav-heading{
             margin-top: 0px;
