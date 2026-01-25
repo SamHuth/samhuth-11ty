@@ -1,21 +1,18 @@
 ---
 layout: page.njk
-title: Books
+title: Bookshelf
 meta:
     description: 'Recent reads'
 date: Last Modified
 ---
+Recent Reads
 
-Check em out
+<img src="/img/header-bookshelf.gif"  alt="" width="623" height="187" eleventy:ignore>
 
-<img src="/img/header-bookshelf.gif"  alt="" eleventy:ignore>
-
-## Recent Reads
-
-### 2026
+## 2026
 [Dark Emu - Bruce Pascoe](https://www.goodreads.com/book/show/21401526-dark-emu){target="_blank"}
 
-### 2025
+## 2025
 
 [Web Accessibility Cookbook - Manuel Matuzović](https://accessibility-cookbook.com/){target="_blank"}
 
@@ -25,7 +22,7 @@ Check em out
 
 [Sublimia Syndrome - Exurb1a](https://www.goodreads.com/book/show/240952237-sublimia-syndrome){target="_blank"}
 
-### 2024
+## 2024
 
 [Ultra 85 - Logic](https://www.goodreads.com/book/show/211143800-ultra-85){target="_blank"}
 
@@ -33,7 +30,7 @@ Check em out
 
 [There is No Antimemetics Division - qntm](https://www.goodreads.com/book/show/54870256-there-is-no-antimemetics-division){target="_blank"}
 
-### 2023
+## 2023
 
 [Geometry for Ocelots - Exurb1a](https://www.goodreads.com/book/show/58245377-geometry-for-ocelots){target="_blank"}
 
@@ -43,7 +40,7 @@ Check em out
 
 [Sapiens - Yuval Noah Harari](https://www.goodreads.com/book/show/23692271-sapiens){target="_blank"}
 
-### 2022
+## 2022
 
 The Republic - Plato
 
