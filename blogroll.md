@@ -8,7 +8,7 @@ date: Last Modified
 
 Recommended reading.. in no particular order.
 
-<img src="/img/header-blogroll.gif"  alt="" eleventy:ignore>
+<img src="/img/header-blogroll.gif"  alt="" width="623" height="187" eleventy:ignore>
 
 ## Check these people out
 

@@ -7,7 +7,7 @@ date: Last Modified
 ---
 Go surf the web and find something cool
 
-<img src="/img/header-links.gif"  alt="" eleventy:ignore>
+<img src="/img/header-links.gif"  alt="" width="623" height="187" eleventy:ignore>
 
 <br />
 
@@ -31,4 +31,5 @@ Go surf the web and find something cool
 [Library of Time](https://libraryoftime.xyz/){target="_blank"}
 [words.zip](https://words.zip/){target="_blank"}
 [personalsit.es](https://personalsit.es/){target="_blank"}
+[Atlas of Space](https://atlasof.space/){target="_blank"}
 

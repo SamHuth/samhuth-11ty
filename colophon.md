@@ -8,7 +8,7 @@ date: Last Modified
 
 How and why I built this website.
 
-<img src="/img/header-colophon.gif"  alt="" eleventy:ignore>
+<img src="/img/header-colophon.gif"  alt="" width="623" height="187" eleventy:ignore>
 
 ## What I want this website to be
 

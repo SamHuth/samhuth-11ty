@@ -7,7 +7,7 @@ date: Last Modified
 ---
 Now Now Now.
 
-<img src="/img/header-now.gif" alt="" eleventy:ignore>
+<img src="/img/header-now.gif" alt="" width="623" height="187" eleventy:ignore>
 
 ## Projects
 Purchasing domains and not doing anything with them.

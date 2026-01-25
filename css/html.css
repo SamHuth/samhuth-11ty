@@ -5,9 +5,9 @@
         --accent: #09b081;
         --accent-alt: #d2ad1a;
         --text: #dbdbdb;
-        --text-alt: #a0a0a0;
         --background-theme: #17171c;
         --background: #1c1c1f;
+        --subtle: #c2c2c2;
         --section-padding: 2rem;
     }
 
@@ -46,7 +46,7 @@
         "footer aside";
         /* gap: 1rem 2rem; */
         grid-template-rows: auto auto 1fr auto;
-        grid-template-columns: 1fr auto;
+        grid-template-columns: 1fr 200px;
         background-color: var(--background-theme);
     }
     main{
@@ -59,12 +59,18 @@
         grid-area: aside;
         background-color: var(--background);
         padding: var(--section-padding);
+        font-size: .9rem;
+    }
+    header{
+        padding: var(--section-padding);
+        margin-bottom: 0;
     }
     header *{
         display: block;
-        color: var(--text-alt);
+        color: var(--subtle);
         margin-bottom: 0;
-        font-style: italic;
+        font-size: .8rem;
+        /* font-style: italic; */
     }
     footer {
         grid-area: footer;
@@ -75,8 +81,9 @@
         font-size: small;
     }
     hr{
-       border: 2.5px solid var(--accent);
-       margin-bottom: 2rem;
+        border: none;
+        border-top: 2px solid var(--subtle);
+        margin-bottom: 2rem;
     }
     a,
     a sup,
@@ -150,7 +157,7 @@
         height: 150px
     }
 
-    @media only screen and (max-width:768px) {
+    @media only screen and (max-width:600px) {
         :root{
             --section-padding: 1rem 2rem;
         }
@@ -158,8 +165,8 @@
             grid-template-areas: 
             "skip"
             "header"
-            "aside"
             "main"
+            "aside"
             "footer";
             grid-template-rows: auto auto auto 1fr auto;
             grid-template-columns: 1fr;
