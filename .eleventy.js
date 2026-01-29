@@ -28,4 +28,8 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin);
 
+  eleventyConfig.addCollection("menuItems", function (collectionsApi) {
+		return collectionsApi.getFilteredByTag("menu").sort( (a, b) => a?.data?.order > b?.data?.order ? 1 : -1)
+	});
+
 };
