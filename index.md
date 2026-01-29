@@ -4,6 +4,8 @@ title: Home
 meta:
   description: 'Web Dev, SEO, Web Apps, Product Solutions. The personal website of Samuel Huth, Web Developer from Brisbane, Australia.'
 date: Last Modified
+tags: menu
+order: 1
 ---
 
 Welcome to my digital space. 

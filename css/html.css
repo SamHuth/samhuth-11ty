@@ -4,7 +4,7 @@
     :root {
         --accent: #09b081;
         --accent-alt: #d2ad1a;
-        --text: #dbdbdb;
+        --text: #acbab8;
         --background-theme: #17171c;
         --background: #1c1c1f;
         --subtle: #c2c2c2;
@@ -22,11 +22,13 @@
         /* https://systemfontstack.com/ */
         font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, Adwaita Sans, Cantarell, Ubuntu, roboto, noto, helvetica, arial, sans-serif;
         color: var(--text);
+        font-weight: 300;
         margin-bottom: 0.5em;
     }
 
     h1, h2, h3, h4, h5, h6{
         font-family: 'Bagnard', Georgia, 'Times New Roman', Times, serif;
+        font-weight: 100;
         margin-top: 2em;
         margin-bottom: 0em;
     }
@@ -36,7 +38,7 @@
     }
     body{
         width: 100%;
-        max-width: 90ch;
+        max-width: 80ch;
         margin: 0 auto;
         display: grid;
         grid-template-areas: 
@@ -91,7 +93,7 @@
     a strong,
     a b {
         color: var(--accent);
-        font-weight: bold;
+        font-weight: 500;
         position: relative;
     }
     
@@ -100,7 +102,7 @@
     a:hover em, a:focus em,
     a:hover strong, a:focus strong,
     a:hover b, a:focus b,
-    a[aria-current="true"] {
+    a[aria-current="page"] {
         color: var(--accent-alt);
     }
 

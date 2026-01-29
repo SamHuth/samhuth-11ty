@@ -4,6 +4,8 @@ title: Links
 meta:
   description: 'Go surf the web and find something cool'
 date: Last Modified
+tags: menu
+order: 3
 ---
 Go surf the web and find something cool
 
@@ -32,4 +34,8 @@ Go surf the web and find something cool
 [words.zip](https://words.zip/){target="_blank"}
 [personalsit.es](https://personalsit.es/){target="_blank"}
 [Atlas of Space](https://atlasof.space/){target="_blank"}
+[everynoise](https://everynoise.com/engenremap.html){target="_blank"}
 
+<br />
+
+[Why all the links?](https://blog.jim-nielsen.com/2024/the-subversive-hyperlink/){target="_blank"}

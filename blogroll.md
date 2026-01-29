@@ -4,6 +4,8 @@ title: Blogroll
 meta:
   description: "Recommended reading.. in no particular order"
 date: Last Modified
+tags: menu
+order: 6
 ---
 
 Recommended reading.. in no particular order.
