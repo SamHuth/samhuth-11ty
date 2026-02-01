@@ -19,7 +19,6 @@ Welcome to my digital space.
 
 I'm Sam and I build websites and applications with 11ty, WordPress and React.
 
-<br />
 
 Want help with yours?
 

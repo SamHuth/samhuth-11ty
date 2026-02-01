@@ -5,9 +5,10 @@
         --accent: #09b081;
         --accent-alt: #d2ad1a;
         --text: #acbab8;
+        --subtle: #c2c2c2;
+        --feint: #383838;
         --background-theme: #17171c;
         --background: #1c1c1f;
-        --subtle: #c2c2c2;
         --section-padding: 2rem;
     }
 
@@ -107,8 +108,8 @@
     }
 
     a:focus{
-        outline: 2px dashed var(--accent-alt);
-        outline-offset: 4px;
+        outline: 1px dashed var(--accent-alt);
+        outline-offset: 2px;
     }
     a[target="_blank"]:after{
         content: " ↗";

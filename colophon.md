@@ -4,8 +4,6 @@ title: Colophon
 meta:
   description: 'How and why I built this website'
 date: Last Modified
-tags: menu
-order: 7
 ---
 
 How and why I built this website.
