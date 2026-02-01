@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    {# Meta Data #}
+    {% include "meta_data.njk" %}
+    {# Schema Data #}
+    {% include "schema_data.njk" %}
+  </head>
+  <body id="site">
+    <main id="content">
+        <h1>{{ title }}</h1>
+        {{ content | safe }}
+    </main>
+  </body>
+</html>
