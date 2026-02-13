@@ -16,6 +16,10 @@ What am I listening to?
 {class="profile-link"}
 - [![Emerald Paradise - Phasera](https://f4.bcbits.com/img/a1834325260_16.jpg){class="profile" loading="lazy" eleventy:widths="200"}](https://phasera.bandcamp.com/album/emerald-paradise){class="profile-link"}
 {class="profile-link"}
+- [![Blue World Odyssey - Phasera](https://f4.bcbits.com/img/a1948849438_16.jpg){class="profile" loading="lazy" eleventy:widths="200"}](https://phasera.bandcamp.com/album/blue-world-odyssey){class="profile-link"}
+{class="profile-link"}
+- [![Forward Motion - Phasera](https://f4.bcbits.com/img/a1176208547_16.jpg){class="profile" loading="lazy" eleventy:widths="200"}](https://phasera.bandcamp.com/album/forward-motion){class="profile-link"}
+{class="profile-link"}
 
 
 ## January 2026
