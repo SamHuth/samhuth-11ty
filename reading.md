@@ -14,6 +14,7 @@ Recent Reads
 ## 2026
 [Dark Emu - Bruce Pascoe](https://www.goodreads.com/book/show/21401526-dark-emu){target="_blank"}
 [The Lucky Country - Donald Horne](https://www.goodreads.com/book/show/3305564-the-lucky-country){target="_blank"}
+[A Clockwork Orange - Anthony Burgess](https://www.goodreads.com/book/show/41817486-a-clockwork-orange){target="_blank"}
 
 ## 2025
 

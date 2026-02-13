@@ -11,6 +11,8 @@ Go surf the web and find something cool
 
 <img src="/img/header-links.gif"  alt="" width="623" height="187" eleventy:ignore>
 
+<br />
+
 > [Why? Because it’s a web. Interconnectedness is the whole point.](https://blog.jim-nielsen.com/2024/the-subversive-hyperlink/){target="_blank"}
 
 
