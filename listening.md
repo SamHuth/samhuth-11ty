@@ -20,6 +20,10 @@ What am I listening to?
 {class="profile-link"}
 - [![Forward Motion - Phasera](https://f4.bcbits.com/img/a1176208547_16.jpg){class="profile" loading="lazy" eleventy:widths="200"}](https://phasera.bandcamp.com/album/forward-motion){class="profile-link"}
 {class="profile-link"}
+- [![Process Protocol - Phasera](https://f4.bcbits.com/img/a3838688951_16.jpg){class="profile" loading="lazy" eleventy:widths="200"}](https://phasera.bandcamp.com/album/process-protocol-2){class="profile-link"}
+{class="profile-link"}
+- [![Press Start - Phasera](https://f4.bcbits.com/img/a3189590220_16.jpg){class="profile" loading="lazy" eleventy:widths="200"}](https://phasera.bandcamp.com/album/press-start){class="profile-link"}
+{class="profile-link"}
 
 
 ## January 2026
