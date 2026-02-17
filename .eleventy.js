@@ -5,7 +5,6 @@ const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 module.exports = function (eleventyConfig) {
   // Eleventy PassThrough
   eleventyConfig.addPassthroughCopy('style.css');
-  eleventyConfig.addPassthroughCopy('Samuel_Huth_Resume_2025.pdf');
   eleventyConfig.addPassthroughCopy('Bagnard.otf');
 
   eleventyConfig.addPassthroughCopy('css');
