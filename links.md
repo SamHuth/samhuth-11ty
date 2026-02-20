@@ -27,6 +27,7 @@ Go surf the web and find something cool
 [words.zip](https://words.zip/){target="_blank"}
 [Atlas of Space](https://atlasof.space/){target="_blank"}
 [everynoise](https://everynoise.com/engenremap.html){target="_blank"}
+[gradient.horse](https://gradient.horse){target="_blank"}
 
 ## Educational Ones
 [Resonant Computing](https://resonantcomputing.org/){target="_blank"}
