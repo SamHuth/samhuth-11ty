@@ -31,7 +31,9 @@
         font-family: 'Bagnard', Georgia, 'Times New Roman', Times, serif;
         font-weight: 900;
         margin-top: 2em;
-        margin-bottom: 0em;
+        border-bottom: var(--accent) 2px solid;
+        display: inline-block;
+        margin-bottom: 1rem;
     }
 
     html{
