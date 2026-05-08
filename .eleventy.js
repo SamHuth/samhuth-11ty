@@ -6,10 +6,11 @@ module.exports = function (eleventyConfig) {
   // Eleventy PassThrough
   eleventyConfig.addPassthroughCopy('style.css');
   eleventyConfig.addPassthroughCopy('Bagnard.otf');
+  eleventyConfig.addPassthroughCopy('code-circle.svg');
 
   eleventyConfig.addPassthroughCopy('css');
-  eleventyConfig.addPassthroughCopy('img');
-  eleventyConfig.addPassthroughCopy('photos');
+  // eleventyConfig.addPassthroughCopy('img');
+  // eleventyConfig.addPassthroughCopy('photos');
   eleventyConfig.addPassthroughCopy({ 'robots.txt': 'robots.txt' });
 
   // Current Year
