@@ -1,51 +1,5 @@
 /* Utility Classes */
 @layer utility {
 
-    [href="#content"]{
-        position: absolute;
-        left: -10000px;
-        top: auto;
-        width: 1px;
-        height: 1px;
-        overflow: hidden;
-        grid-area: "skip";
-    }
     
-    [href="#content"]:focus{
-        position: fixed;
-        width: auto;
-        height: auto;
-        left: 1rem;
-        top: 1rem;
-    }
-
-    #nav-heading{
-        margin-top: 72px;
-    }
-
-    .single-photo{
-        text-align: center;
-    }
-    
-    .single-photo h1{
-        margin: 0 0 20px;
-    }
-
-    .feint{
-        margin: 1rem 0;
-        border: 0;
-        position: relative;
-    }
-
-    .feint::after{
-        content: "✧ ✧ ✧";
-        font-size: 1.4rem;
-        color: var(--feint);
-    }
-
-    @media only screen and (max-width:768px) {
-        #nav-heading{
-            margin-top: 0px;
-        }
-    }
 }

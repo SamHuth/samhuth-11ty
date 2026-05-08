@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    {# Meta Data #}
+    {% include "meta_data.njk" %}
+    {# Schema Data #}
+    {% include "schema_data.njk" %}
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body id="site">
+    <header>
+        <h1>{{ title }}</h1>
+    </header>
+    <main id="content">
+        {{ content | safe }}
+    </main>
+    <footer>
+        {% include "navigation.njk" %}
+        <hr />
+        <small>Last updated: {{ page.date.toLocaleString("en-AU", { timeZone: 'Australia/Brisbane' }) }}</small>
+        <br />
+        <small>Generated with: {{ eleventy.generator }}</small>
+        <br />
+        <small>&copy; 2024 - {% year %}</small>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+/* Grouped Elements/Components */
+@layer group {
+    ul.profile-link{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        gap: 1rem;
+    }
+    ul.profile-link *{
+        margin-bottom: 0;
+    }
+    ul.profile-link li {
+        list-style-type: none;
+    }
+    ul.profile-link li a{
+        display: block;
+        transition: transform ease-out .2s;
+        box-shadow: 0px 0px 0px rgba(0,0,0,.0);
+    }
+    ul.profile-link li a:hover,
+    ul.profile-link li a:focus{
+        transform: translateY(-4px);
+        box-shadow: 0px 6px 15px 5px rgba(255, 255, 255, 0.05);
+    }
+}

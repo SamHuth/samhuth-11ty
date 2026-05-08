@@ -1,9 +1,9 @@
-<div>
-    <nav>
-        <ul>
-            {%- for post in collections.menuItems -%}
-            <li><a {% if page.url === post.url %} aria-current="page"{% endif %} href="{{ post.url }}">{{ post.data.title }}</a></li>
-            {%- endfor -%}
-        </ul>
-    </nav>
-</div>
+<hr />
+<h2>On this site</h2>
+<nav>
+    <ul>
+        {%- for post in collections.menuItems -%}
+            <li><a {% if page.url === post.url %} aria-current="page"{% endif %} href="{{ post.url }}">{{ post.data.menuTitle }}</a></li>
+        {%- endfor -%}
+    </ul>
+</nav>
