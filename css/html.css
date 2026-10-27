@@ -7,7 +7,7 @@
         --accent: #136af1;
         --accent-alt: #072dc1;
         --minimal: #666666;
-        --base: 16px;
+        --base: 18px;
         
         /* FONT SIZING */
         /* Step 1: 12.804px → 14.4px */
@@ -51,7 +51,7 @@
         margin-bottom: 1rem;
     }
     p{
-        line-height: 1.4;
+        line-height: 1.8;
     }
 
     html{
@@ -61,7 +61,7 @@
     body{
         min-height: 100vh;
         width: 100%;
-        max-width: 70ch;
+        max-width: 60ch;
         padding: 2.5em;
         margin: 0 auto;
     }
@@ -95,6 +95,8 @@
     a[target="_blank"]:after{
         content: '⬀';
         padding-left: 2px;
+        vertical-align: super;
+        font-size: .8rem;
     }
     small{
         color: var(--minimal);
