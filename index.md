@@ -13,10 +13,10 @@ menuTitle: Home
 ![a handsome bunch of pixels](/img/profile-dithered.png)
 
 
-Howdy! I'm Sam, a Brisbane-based web artisan who designs, develops and manages websites. I build static sites with good ol' <abbr title="Hypertext Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr> and take full advantage of the modern features that provide better performance, accessibility and user experience.
+Howdy! I'm Sam, a Brisbane-based web artisan who designs, develops and manages websites. I prefer to build static sites with good ol' <abbr title="Hypertext Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr> and take full advantage of the modern web standards that provide a better user experience, performance and accessibility.
   
   
-I've been building for the web since 2015 and I'm sick of the slop being spat out. The internet is about information access and your job as a developer is to make it accessible for everyone. That's why I'm building better websites with my own studio, [branchingweb.com.au](https://branchingweb.com.au){target="_blank"}.
+I've been building for the web since 2015 and I'm sick of the sloppy standards that gets allowed. The internet is about information access and your job as a developer is to make it accessible for everyone. That's why I'm starting my own studio to build better websites for the internet. If you're looking for someone to build a website that treats all your visitors with respect, reach out to me at [branchingweb.com.au](https://branchingweb.com.au){target="_blank"}.
 
 <hr />
 
